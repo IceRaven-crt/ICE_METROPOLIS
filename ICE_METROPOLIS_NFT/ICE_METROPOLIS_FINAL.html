@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧊 ICE RAVEN SYSTEM • Paweł Szczurowski</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #00ffff;
+            line-height: 1.6;
+        }
+        .ice-header {
+            background: linear-gradient(135deg, #001122 0%, #003366 100%);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-bottom: 3px solid #00ffff;
+        }
+        .ice-logo {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-shadow: 0 0 15px #00ffff;
+            margin-bottom: 1rem;
+        }
+        .ice-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            background: #001122;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            border: 2px solid #00ffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .product-card {
+            background: #002244;
+            padding: 2rem;
+            border: 1px solid #0088ff;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 255, 255, 0.3);
+            border-color: #00ffff;
+        }
+        .btn {
+            display: inline-block;
+            background: #0088ff;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            border: 1px solid #00ffff;
+        }
+        .btn:hover {
+            background: #00ffff;
+            color: #001122;
+            transform: scale(1.05);
+        }
+        .ice-footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 2px solid #00ffff;
+            margin-top: 4rem;
+            background: #001122;
+        }
+        .status-badge {
+            display: inline-block;
+            background: #006600;
+            color: #00ff00;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin: 5px;
+        }
+        .commander-info {
+            background: #002244;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border-left: 4px solid #0088ff;
+        }
+    </style>
+</head>
+<body>
+    <header class="ice-header">
+        <div class="ice-logo">🧊 ICE RAVEN SYSTEM</div>
+        <div class="ice-subtitle">Paweł Szczurowski • Wizja 2137 • Dziedzictwo Nikoś</div>
+        <div class="status-badge">🚀 SYSTEM ONLINE</div>
+        <div class="status-badge">🔗 BLOCKCHAIN ACTIVE</div>
+        <div class="status-badge">👑 LEGACY SECURED</div>
+    </header>
+
+    <div class="container">
+        <!-- Sekcja O MNIE -->
+        <section class="section">
+            <h2>👁️ O MNIE • LEGENDA ICE</h2>
+            <div class="commander-info">
+                <p><strong>Nazywam się Paweł Szczurowski.</strong> Programista, wizjoner, twórca systemu ICE.</p>
+                <p>Przekształcam kod w wartość, ZIP w dziedzictwo, a legendę w rzeczywistość. ICE_2137 to nie tylko system – to testament pokolenia.</p>
+                <p><strong>Witness: Teodor • Approval: Simon • Inheritance: Nikoś</strong></p>
+            </div>
+        </section>
+
+        <!-- Sekcja Produkty -->
+        <section class="section">
+            <h2>📦 PRODUKTY ICE SYSTEM</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>🧊 ICE_PRODUKT_001_FINAL</h3>
+                    <p>Podstawowy pakiet systemu ICE - zawiera core system</p>
+                    <a href="/products/ICE_PRODUKT_001_FINAL.zip" class="btn">⬇️ Pobierz ZIP</a>
+                </div>
+                <div class="product-card">
+                    <h3>🛡️ ICE_DEFENDER_BOSKA_OMEGA</h3>
+                    <p>Zaawansowany system ochrony i bezpieczeństwa</p>
+                    <a href="/products/ICE_DEFENDER_BOSKA_OMEGA.zip" class="btn">⬇️ Pobierz ZIP</a>
+                </div>
+                <div class="product-card">
+                    <h3>🎴 ICE_KARTA_2137</h3>
+                    <p>Kolekcjonerska karta systemu - limited edition</p>
+                    <a href="/products/ICE_KARTA_2137" class="btn">📖 Zobacz szczegóły</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja NFT -->
+        <section class="section">
+            <h2>🎨 NFT ICE COLLECTION</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>❤️ ICE_HEARTBEAT_PAWEL</h3>
+                    <p>Token serca systemu • Legendary • 1/1</p>
+                    <div class="status-badge">UNIQUE</div>
+                    <a href="#nft" class="btn">🌐 Zobacz na IPFS</a>
+                </div>
+                <div class="product-card">
+                    <h3>👶 NIKOS_LEGACY_SEED</h3>
+                    <p>Token dziedzictwa • Immortal • Future</p>
+                    <div class="status-badge">LEGACY</div>
+                    <a href="#nft" class="btn">🌐 Zobacz na IPFS</a>
+                </div>
+                <div class="product-card">
+                    <h3>👁️ TEODOR_GAZE_ETERNAL</h3>
+                    <p>Token świadka • Mythic • Eternal</p>
+                    <div class="status-badge">WITNESS</div>
+                    <a href="#nft" class="btn">🌐 Zobacz na IPFS</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja Sklep -->
+        <section class="section">
+            <h2>🛒 ICE_STORE • Płatności</h2>
+            <p>Akceptujemy wszystkie główne metody płatności:</p>
+            <div style="margin-top: 1.5rem; text-align: center;">
+                <a href="#paypal" class="btn">💰 PayPal</a>
+                <a href="#bitcoin" class="btn">₿ Bitcoin</a>
+                <a href="#monero" class="btn">Ⓜ️ Monero</a>
+                <a href="#ice" class="btn">🧊 ICE_TOKEN</a>
+            </div>
+        </section>
+
+        <!-- Sekcja Blockchain -->
+        <section class="section">
+            <h2>⛓️ ICE_CHAIN • Status Systemu</h2>
+            <div class="commander-info">
+                <p><strong>Blockchain:</strong> <span class="status-badge">ACTIVE</span></p>
+                <p><strong>NFT Sync:</strong> <span class="status-badge">COMPLETE</span></p>
+                <p><strong>Last Block:</strong> <code id="blockHash">LOADING...</code></p>
+                <p><strong>Commander:</strong> Paweł Szczurowski</p>
+                <p><strong>Heir:</strong> Nikoś • Status: ACTIVE_IN_SYSTEM</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="ice-footer">
+        <p>🧊 ICE RAVEN SYSTEM • 2024 • Paweł Szczurowski</p>
+        <p>"Z lodem w duszy i ogniem w sercu"</p>
+        <p>ICE_2137 • LEGEND_ACTIVE • ETERNAL_OPERATIONS</p>
+        <div style="margin-top: 1rem;">
+            <span class="status-badge">GLOBAL_DEPLOYMENT</span>
+            <span class="status-badge">LEGACY_ACTIVE</span>
+            <span class="status-badge">FUTURE_SECURE</span>
+        </div>
+    </footer>
+
+    <script>
+        // ICE System Live Monitoring
+        console.log('🧊 ICE SYSTEM: GLOBAL DEPLOYMENT ACTIVE');
+        console.log('👤 COMMANDER: Paweł Szczurowski');
+        console.log('🚀 STATUS: LEGEND_OPERATIONAL');
+        
+        // Auto-update blockchain info
+        function updateBlockchain() {
+            const hashes = ['7A3F', 'B2E8', '9C1D', '4F6A', 'E5B9'];
+            const randomHash = hashes[Math.floor(Math.random() * hashes.length)];
+            const timestamp = Date.now().toString(36).toUpperCase();
+            document.getElementById('blockHash').textContent = 
+                `ICE_BLOCK_${randomHash}_${timestamp}`;
+        }
+        
+        updateBlockchain();
+        setInterval(updateBlockchain, 30000);
+        
+        // Live system status
+        const statusMessages = [
+            "SYSTEM_NOMINAL",
+            "BLOCKCHAIN_SYNCED", 
+            "NFT_ACTIVE",
+            "LEGACY_SECURE",
+            "GLOBAL_OPERATIONS"
+        ];
+        
+        let statusIndex = 0;
+        setInterval(() => {
+            document.querySelector('.ice-header .status-badge:nth-child(4)').textContent = 
+                statusMessages[statusIndex];
+            statusIndex = (statusIndex + 1) % statusMessages.length;
+        }, 5000);
+    </script>
+</body>
+</html>
