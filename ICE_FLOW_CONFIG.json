@@ -1,0 +1,16 @@
+{
+  "system": "ICE_METROPOLIS",
+  "status": "ACTIVE",
+  "modules": {
+    "bitcomat": true,
+    "netlify": true,
+    "blockchain": true,
+    "mobile": true
+  },
+  "revenue_streams": [
+    "web_traffic",
+    "crypto_payments", 
+    "nft_certificates",
+    "affiliate_system"
+  ]
+}

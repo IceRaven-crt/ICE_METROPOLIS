@@ -1,0 +1,15 @@
+{
+  "project": "ICE_METROPOLIS",
+  "author": "Paweł Szczurowski",
+  "deployment": {
+    "platform": "Netlify",
+    "live_url": "https://ice-metropolis-xxxxx.netlify.app",
+    "timestamp_utc": "$(date -u +%FT%TZ)"
+  },
+  "reports": [
+    "ICE_SUCCESS_REPORT_2137.pdf",
+    "ICE_FLOW_002_REPORT.pdf",
+    "ICE_MANIFEST_WOJTEK.pdf"
+  ],
+  "hash_file": "HASH_SHA256.txt"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ICE Dropship Deployment Package #2137",
+  "description": "Kompletny system dropshippingowy ICE - pełny stack deployment z automatyzacją i AI integration. Legacy: Nikoś Szczurowski",
+  "image": "ipfs://QmX9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9",
+  "external_url": "ipfs://QmY8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9a8",
+  "attributes": [
+    {
+      "trait_type": "Package Type",
+      "value": "Full Stack Deployment"
+    },
+    {
+      "trait_type": "Technology Stack",
+      "value": "Node.js + React + AI + Blockchain"
+    },
+    {
+      "trait_type": "SHA256 Hash",
+      "value": "d8e2c0a34e7a4c8121a1cc6d8cf33bbf4f6a7f2ab50b1d7a2e2e6a06f7c4a1a8"
+    },
+    {
+      "trait_type": "Author",
+      "value": "Paweł Szczurowski"
+    },
+    {
+      "trait_type": "Blockchain",
+      "value": "Polygon"
+    },
+    {
+      "trait_type": "Generation",
+      "value": "ICE Legacy 2137"
+    },
+    {
+      "trait_type": "Legacy Holder",
+      "value": "Nikoś Szczurowski"
+    },
+    {
+      "trait_type": "Timestamp",
+      "value": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+    }
+  ]
+}

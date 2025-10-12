@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "18"
+  TZ = "Europe/Warsaw"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "🧊 ICE METROPOLIS - SIMPLE DEPLOYMENT"
+echo "====================================="
+echo ""
+echo "🎯 INSTRUKCJA:"
+echo "1. Otwórz przeglądarkę"
+echo "2. Wejdź na: https://app.netlify.com/drop" 
+echo "3. Przeciągnij folder ICE_METROPOLIS"
+echo "4. Poczekaj 2 minuty na URL"
+echo "5. Wklej URL tutaj"
+echo ""
+echo "📁 Twój folder: $(pwd)"
+echo "🌐 Gotowy do deploymentu!"

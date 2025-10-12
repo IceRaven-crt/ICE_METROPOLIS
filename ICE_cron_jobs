@@ -1,0 +1,1 @@
+0 8 * * * cd ~/ICE_METROPOLIS && python3 finance/diversification_tracker.py >> logs/diversification.log

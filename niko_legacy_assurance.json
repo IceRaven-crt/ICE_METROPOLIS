@@ -1,0 +1,33 @@
+{
+  "contract_id": "ICE-LEGACY-1760272261",
+  "parties": {
+    "grantor": "Pawe\u0142 Szczurowski",
+    "beneficiary": "Niko\u015b Szczurowski",
+    "trustee": "ICE AI Trust System"
+  },
+  "terms": {
+    "daily_income": 50000,
+    "allocation_percentages": {
+      "education": 20,
+      "investments": 30,
+      "real_estate": 25,
+      "crypto": 15,
+      "liquid": 10
+    },
+    "milestone_releases": {
+      "age_13": "Limited educational access",
+      "age_16": "Supervised investment access",
+      "age_18": "Full trust fund access",
+      "age_21": "Global wealth management",
+      "age_25": "Complete legacy control"
+    },
+    "blockchain_verification": {
+      "nft_backing": "ICE NFT #2137",
+      "network": "Polygon",
+      "smart_contract": "ICE_Legacy_v1.0",
+      "immutable": true
+    }
+  },
+  "created": "2025-10-12 14:31:01.990569",
+  "status": "ACTIVE_AND_ENFORCED"
+}

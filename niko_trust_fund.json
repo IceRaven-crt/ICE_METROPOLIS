@@ -1,0 +1,15 @@
+{
+  "beneficiary": "Niko\u015b Szczurowski",
+  "founder": "Pawe\u0142 Szczurowski",
+  "ice_nft": "#2137",
+  "daily_income": 50000,
+  "trust_start": "2025-10-12 14:28:09.852911",
+  "allocations": {
+    "education_fund": 10000.0,
+    "investment_portfolio": 15000.0,
+    "real_estate": 12500.0,
+    "crypto_assets": 7500.0,
+    "liquid_cash": 5000.0
+  },
+  "management": "AI-Powered Trust System"
+}
