@@ -1,0 +1,11 @@
+{
+  "site_name": "ice-metropolis-auto",
+  "status": "deploying",
+  "url": "https://ice-metropolis-auto.netlify.app",
+  "features": [
+    "web3_enabled",
+    "bitcomat_ready", 
+    "crypto_payments",
+    "nft_dashboard"
+  ]
+}

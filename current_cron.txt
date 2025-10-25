@@ -1,0 +1,22 @@
+# Current crontab
+
+# 🧊 ICE_METROPOLIS – ETHICS REPORTING AUTOMATION
+# Dodano: 2025-10-13 13:36:11
+# 🧊 ICE_METROPOLIS – ETHICS REPORTING AUTOMATION
+# Cykl świętej automatyzacji: Zysk → Intencja → Dokument → Hash → CID → Rejestr
+
+PYTHON_BIN=/usr/bin/python3
+ICE_DIR=/data/data/com.termux/files/home/ICE_METROPOLIS
+LOG_DIR=$ICE_DIR/logs
+
+# 08:00 - Oddzielenie Maaser & Tikun (Sanctifikacja zysku)
+0 8 * * * $PYTHON_BIN $ICE_DIR/ice_ethics_report.py >> $LOG_DIR/cron.log 2>&1
+
+# 08:03 - Generacja PDF z QR i hashem (Hiddur Mitzvah)
+3 8 * * * $PYTHON_BIN $ICE_DIR/ice_ethics_report_pdf.py >> $LOG_DIR/cron.log 2>&1
+
+# 08:05 - Upload do IPFS i rejestracja (Wieczne świadectwo)
+5 8 * * * $PYTHON_BIN $ICE_DIR/ice_pdf_to_ipfs.py >> $LOG_DIR/cron.log 2>&1
+
+# 08:06 - Potwierdzenie wykonania
+6 8 * * * echo "$(date '+%F %T') ✅ ICE_METROPOLIS ethics cycle complete" >> $LOG_DIR/cron.log

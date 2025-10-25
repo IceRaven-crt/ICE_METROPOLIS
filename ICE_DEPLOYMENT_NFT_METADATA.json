@@ -1,0 +1,43 @@
+{
+  "name": "ICE_METROPOLIS_LIVE_DEPLOYMENT",
+  "description": "Historyczny deployment systemu etycznego raportowania ICE_METROPOLIS. System świadczący o Kiddush Hashem w świecie technologii.",
+  "image": "ipfs://QmaD9e3kq8HH9MRavCrJm5UKrKFvenMQXcRwcWuZG4o7Aj",
+  "external_url": "ipfs://QmaD9e3kq8HH9MRavCrJm5UKrKFvenMQXcRwcWuZG4o7Aj",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "LIVE_ACTIVE"
+    },
+    {
+      "trait_type": "Deployment_Time", 
+      "value": "2025-10-13 14:28:01"
+    },
+    {
+      "trait_type": "Daily_Income",
+      "value": "212817.90"
+    },
+    {
+      "trait_type": "Daily_Maaser",
+      "value": "21281.79"
+    },
+    {
+      "trait_type": "SHA256_Integrity",
+      "value": "d1895e3e61540335ff656664d38aaf74b3be2376b912df16370fdc205ed16ac1"
+    },
+    {
+      "trait_type": "Blockchain_CID",
+      "value": "QmaD9e3kq8HH9MRavCrJm5UKrKFvenMQXcRwcWuZG4o7Aj"
+    },
+    {
+      "trait_type": "Automation_Schedule",
+      "value": "08:00_08:03_08:05_DAILY"
+    },
+    {
+      "trait_type": "Intention",
+      "value": "L'shem_Shamayim"
+    }
+  ],
+  "background_color": "000000",
+  "animation_url": null,
+  "youtube_url": null
+}

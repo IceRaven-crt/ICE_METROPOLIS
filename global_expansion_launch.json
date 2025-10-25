@@ -1,0 +1,48 @@
+{
+  "initiative": "ICE Global Domination",
+  "launch_time": "2025-10-13T01:09:37.948552",
+  "total_revenue_target": "$1.4M/mo",
+  "regions": {
+    "NORTH_AMERICA": {
+      "focus": "Enterprise SaaS, Crypto",
+      "targets": [
+        "Fortune 500",
+        "Tech unicorns",
+        "Financial institutions"
+      ],
+      "revenue_target": "$500K/mo",
+      "timeline": "Month 1-3"
+    },
+    "EUROPE": {
+      "focus": "Privacy-tech, Green-tech",
+      "targets": [
+        "DAX 30 companies",
+        "EU institutions",
+        "Innovation hubs"
+      ],
+      "revenue_target": "$300K/mo",
+      "timeline": "Month 2-4"
+    },
+    "ASIA_PACIFIC": {
+      "focus": "Mobile-first, Gaming, E-commerce",
+      "targets": [
+        "Tech giants",
+        "Manufacturing conglomerates",
+        "Startup ecosystems"
+      ],
+      "revenue_target": "$400K/mo",
+      "timeline": "Month 3-6"
+    },
+    "MIDDLE_EAST": {
+      "focus": "Fintech, Smart cities, Luxury digital",
+      "targets": [
+        "Sovereign wealth funds",
+        "Construction giants",
+        "Luxury brands"
+      ],
+      "revenue_target": "$200K/mo",
+      "timeline": "Month 4-6"
+    }
+  },
+  "status": "ACTIVE"
+}

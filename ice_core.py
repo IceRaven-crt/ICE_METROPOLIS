@@ -17,19 +17,19 @@ class ICE_Termux_Core:
         return services
     
     def start_agent_manager(self):
-        return "🤖 AGENT MANAGER: ONLINE"
+        return "馃 AGENT MANAGER: ONLINE"
     
     def start_web_dashboard(self):
-        return "🌐 WEB DASHBOARD: PORT 8080"
+        return "馃寪 WEB DASHBOARD: PORT 8080"
     
     def start_blockchain_node(self):
-        return "⛓️ BLOCKCHAIN NODE: SYNCING"
+        return "鉀擄笍 BLOCKCHAIN NODE: SYNCING"
     
     def start_mobile_api(self):
-        return "📱 MOBILE API: READY"
+        return "馃摫 MOBILE API: READY"
 
 core = ICE_Termux_Core()
-print("🧊 ICE TERMUX CORE ACTIVATED!")
+print("馃 ICE TERMUX CORE ACTIVATED!")
 for service, status in core.start_all_services().items():
-    print(f"✅ {status}")
-print("🎉 SYSTEM READY!")
+    print(f"鉁� {status}")
+print("馃帀 SYSTEM READY!")

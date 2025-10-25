@@ -1,0 +1,11 @@
+{
+  "name": "BTCforNikoś_#001",
+  "description": "Johnny & ICE (12k/dzień) dla Nikosia! 1 BTC na zdrowie, etyka 0.89. #ICEcharity",
+  "image": "ipfs://to_update_after_upload",
+  "attributes": [
+    {"trait_type": "Cel", "value": "1 BTC dla Nikosia"},
+    {"trait_type": "Etyka", "value": "0.89 Maaser"},
+    {"trait_type": "Kasa", "value": "12k/day"}
+  ],
+  "external_url": "mailto:gawronskip4@gmail.com"
+}

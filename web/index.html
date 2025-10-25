@@ -1,126 +1,20 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICE SYSTEM - PAWEŁ</title>
+    <title>ICE METROPOLIS - TERMUX</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background: #0a0a0a;
-            color: #00ffff;
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            padding: 20px;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        header {
-            text-align: center;
-            padding: 20px 0;
-            border-bottom: 2px solid #00ffff;
-            margin-bottom: 30px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            color: #00ffff;
-        }
-        .status-box {
-            background: #001122;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 10px;
-            border-left: 5px solid #00ffff;
-        }
-        .agent-list {
-            background: #001122;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 10px;
-        }
-        .agent-item {
-            padding: 10px;
-            margin: 5px 0;
-            background: #002244;
-            border-radius: 5px;
-            border-left: 3px solid #00ff00;
-        }
-        .command-box {
-            background: #002244;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 10px;
-            text-align: center;
-            border: 2px solid #00ffff;
-        }
-        .online {
-            color: #00ff00;
-            font-weight: bold;
-        }
-        .timestamp {
-            color: #888;
-            font-size: 0.9em;
-            text-align: right;
-        }
+        body { background: #000; color: #0ff; font-family: Arial; padding: 20px; }
+        .status { background: #001122; padding: 15px; margin: 10px; border-radius: 10px; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🧊 ICE SYSTEM - PAWEŁ</h1>
-            <p>🚀 System kontroli agentów ICE</p>
-        </header>
-
-        <div class="status-box">
-            <h2>📊 STATUS SYSTEMU</h2>
-            <p>Agenty: <span class="online">5 AKTYWNYCH</span></p>
-            <p>Błędy: <span class="online">ZERO</span></p>
-            <p>Platforma: Termux Android</p>
-            <p>Status: <span class="online">OPERACYJNY</span></p>
-        </div>
-
-        <div class="agent-list">
-            <h2>🤖 AGENCI ONLINE</h2>
-            <div class="agent-item">✅ Agent 1 - Gotowy do akcji</div>
-            <div class="agent-item">✅ Agent 2 - Gotowy do akcji</div>
-            <div class="agent-item">✅ Agent 3 - Gotowy do akcji</div>
-            <div class="agent-item">✅ Agent 4 - Gotowy do akcji</div>
-            <div class="agent-item">✅ Agent 5 - Gotowy do akcji</div>
-        </div>
-
-        <div class="command-box">
-            <h2>🎯 KOMENDA</h2>
-            <p>🚀 System ICE gotowy do akcji</p>
-            <p>💪 Paweł - kontrola systemu aktywna</p>
-            <p>🔧 Wersja: Ultimate 1.0</p>
-        </div>
-
-        <div class="timestamp">
-            Ostatnia aktualizacja: <span id="time"></span>
-        </div>
+    <h1>馃 ICE METROPOLIS - TERMUX</h1>
+    <div class="status">
+        <h3>馃殌 SYSTEM STATUS: ONLINE</h3>
+        <p>Platform: Android Termux</p>
+        <p>Agents: OPTIMUS PRIME, VECTOR PRIME, ...</p>
+        <p>Time: <span id="time"></span></p>
     </div>
-
-    <script>
-        // Aktualizuj czas
-        function updateTime() {
-            const now = new Date();
-            document.getElementById('time').textContent = now.toLocaleString('pl-PL');
-        }
-        updateTime();
-        setInterval(updateTime, 1000);
-
-        // Dodaj efekt ładowania
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('🧊 ICE System dashboard loaded');
-        });
-    </script>
+    <script>document.getElementById('time').innerText = new Date().toLocaleString();</script>
 </body>
 </html>

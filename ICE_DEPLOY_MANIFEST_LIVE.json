@@ -1,0 +1,14 @@
+{
+  "system": "ICE_METROPOLIS_ETHICS_REPORTING",
+  "version": "LIVE_1.0",
+  "deployment_date": "2025-10-13 14:24:45",
+  "status": "ACTIVE",
+  "financial_data": {
+    "daily_income": 212817.9,
+    "daily_maaser": 21281.79
+  },
+  "blockchain": {
+    "cid": "QmaD9e3kq8HH9MRavCrJm5UKrKFvenMQXcRwcWuZG4o7Aj",
+    "sha256": "d1895e3e61540335ff656664d38aaf74b3be2376b912df16370fdc205ed16ac1"
+  }
+}

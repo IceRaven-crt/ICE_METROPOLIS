@@ -1,0 +1,41 @@
+{
+  "tier": "ICE Enterprise Solutions",
+  "deployment_time": "2025-10-13T01:09:25.422085",
+  "monthly_recurring": "$134,988+",
+  "offerings": {
+    "ENTERPRISE_PLUS": {
+      "price": "$9,999/mo",
+      "features": [
+        "Dedicated instance",
+        "White-label solution",
+        "API priority"
+      ],
+      "support": "24/7 dedicated team",
+      "contract": "12-month minimum"
+    },
+    "CORPORATE_RETAINER": {
+      "price": "$25,000/mo",
+      "services": [
+        "Strategic advisory",
+        "Implementation support",
+        "Custom development"
+      ],
+      "resources": "Dedicated account team",
+      "benefits": [
+        "Revenue share opportunities",
+        "Co-marketing"
+      ]
+    },
+    "GLOBAL_SOLUTION": {
+      "price": "$100,000/mo",
+      "scope": [
+        "Multi-region deployment",
+        "Custom integrations",
+        "Training programs"
+      ],
+      "support": "Executive level",
+      "partnership": "Strategic alliance"
+    }
+  },
+  "status": "ACTIVE"
+}

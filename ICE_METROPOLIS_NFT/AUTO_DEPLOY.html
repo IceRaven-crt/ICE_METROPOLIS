@@ -1,0 +1,76 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>🧊 AUTO DEPLOY - ICE METROPOLIS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body { 
+                background: #0a0a0a; 
+                color: #00ffff; 
+                font-family: monospace; 
+                padding: 20px;
+                text-align: center;
+            }
+            .btn { 
+                background: #00ff00; 
+                color: black; 
+                padding: 20px 40px; 
+                font-size: 24px; 
+                text-decoration: none; 
+                border-radius: 15px; 
+                display: block; 
+                margin: 30px auto; 
+                width: 80%; 
+            }
+            .auto-section {
+                background: #001122;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 10px;
+            }
+        </style>
+        <script>
+            // Auto-download po załadowaniu strony
+            window.onload = function() {
+                setTimeout(function() {
+                    document.getElementById('autoDownload').click();
+                }, 1000);
+                
+                setTimeout(function() {
+                    window.open('https://app.netlify.com/drop', '_blank');
+                }, 3000);
+            };
+        </script>
+    </head>
+    <body>
+        <h1>🧊 ICE METROPOLIS</h1>
+        <h2>AUTOMATYCZNY DEPLOY SYSTEM</h2>
+        
+        <div class="auto-section">
+            <h3>🚀 AUTO-DEPLOY W TOKU...</h3>
+            <p>Plik zostanie automatycznie pobrany za <span id="countdown">3</span> sekundy</p>
+            <a id="autoDownload" href="data:application/zip;base64,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" download="ICE_WEB3_DEPLOY.zip" class="btn">
+                📥 AUTO-POBIERANIE ICE_WEB3_DEPLOY.zip
+            </a>
+        </div>
+        
+        <div class="auto-section">
+            <p>Nastąpi automatyczne otwarcie Netlify Drop...</p>
+            <p>Przeciągnij pobrany plik na stronę Netlify</p>
+        </div>
+        
+        <script>
+            // Countdown
+            let count = 3;
+            setInterval(() => {
+                count--;
+                document.getElementById('countdown').textContent = count;
+                if (count <= 0) {
+                    document.getElementById('countdown').textContent = '0';
+                }
+            }, 1000);
+        </script>
+    </body>
+    </html>
+    

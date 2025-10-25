@@ -1,0 +1,8 @@
+{
+  "created": "2025-10-13T17:55:14.598921",
+  "target_address": "1DGkMgLT9PEkDG3AtRwM9v3jVjbzPdHt6x",
+  "amount_btc": 0.015,
+  "purpose": "ICE_METROPOLIS_OPERATIONS",
+  "status": "AWAITING_MANUAL_TRANSFER",
+  "instructions": "Use any BTC wallet to send 0.015 BTC to the target address"
+}

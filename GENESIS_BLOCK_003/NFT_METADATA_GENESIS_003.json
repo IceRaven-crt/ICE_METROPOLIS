@@ -1,0 +1,53 @@
+{
+  "name": "ICE Genesis 003",
+  "description": "Third foundational digital artifact in the ICE Metropolis ecosystem - permanently stored on IPFS and minted as NFT",
+  "image": "ipfs://Qmb65e76bdcb4a2966b37650b2f2f4e8fe21e25cc5a612",
+  "animation_url": "ipfs://Qm0326591fdba907c4f6cf777ceb35a04961a599eb6496",
+  "external_url": "ipfs://Qmb65e76bdcb4a2966b37650b2f2f4e8fe21e25cc5a612",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Block Number",
+      "value": "003"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Storage",
+      "value": "IPFS"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Polygon"
+    }
+  ],
+  "properties": {
+    "files": {
+      "full_pack": {
+        "cid": "Qm0326591fdba907c4f6cf777ceb35a04961a599eb6496",
+        "filename": "ICE_GENESIS_003_FULL_PACK.zip",
+        "description": "Complete Genesis Block 003 Package"
+      },
+      "manifest": {
+        "cid": "Qmb65e76bdcb4a2966b37650b2f2f4e8fe21e25cc5a612",
+        "filename": "ICE_GENESIS_003_MANIFEST.pdf"
+      },
+      "token": {
+        "cid": "Qm7ce34f4799de604e50df1d1799adfa0dc4e1407998b1",
+        "filename": "ICE_GENESIS_003_TOKEN.json"
+      }
+    },
+    "category": "digital_artifact",
+    "creators": [
+      {
+        "address": "ICE_METROPOLIS_ARCHITECT",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+#!/system/bin/sh
+# ICE_METROPOLIS - Daily Automation
+0 8 * * * /data/data/com.termux/files/usr/bin/python3 /data/data/com.termux/files/home/ICE_METROPOLIS/ice_ethics_report.py >> /data/data/com.termux/files/home/ICE_METROPOLIS/logs/cron.log 2>&1
+3 8 * * * /data/data/com.termux/files/usr/bin/python3 /data/data/com.termux/files/home/ICE_METROPOLIS/ice_ethics_report_pdf.py >> /data/data/com.termux/files/home/ICE_METROPOLIS/logs/cron.log 2>&1
+5 8 * * * /data/data/com.termux/files/usr/bin/python3 /data/data/com.termux/files/home/ICE_METROPOLIS/ice_pdf_to_ipfs.py >> /data/data/com.termux/files/home/ICE_METROPOLIS/logs/cron.log 2>&1

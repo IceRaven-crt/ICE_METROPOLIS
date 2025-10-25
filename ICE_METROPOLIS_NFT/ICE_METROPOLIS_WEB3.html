@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧊 ICE METROPOLIS - Web3 Enabled</title>
+    <script type="module">
+        import { Onboard } from 'https://cdn.jsdelivr.net/npm/@web3-onboard/core/+esm'
+        import { injected } from 'https://cdn.jsdelivr.net/npm/@web3-onboard/injected-wallets/+esm'
+        
+        // Web3 Configuration
+        const onboard = Onboard({
+          wallets: [injected()],
+          chains: [
+            {
+              id: '0x1',
+              token: 'ETH',
+              label: 'Ethereum',
+              rpcUrl: 'https://cloudflare-eth.com'
+            }
+          ],
+          appMetadata: {
+            name: 'ICE METROPOLIS',
+            icon: '/assets/ice-logo.png',
+            description: 'Crypto Payments & NFT System'
+          }
+        })
+
+        // Web3 Connect Function
+        async function connectWallet() {
+            const wallets = await onboard.connectWallet()
+            console.log('🧊 Wallet Connected:', wallets)
+            document.getElementById('walletStatus').innerHTML = 
+                `✅ Wallet Connected: ${wallets[0].accounts[0].address.slice(0,8)}...`
+        }
+
+        // Crypto Payment Function
+        async function makePayment() {
+            const wallets = await onboard.connectWallet()
+            if (wallets.length > 0) {
+                document.getElementById('paymentStatus').innerHTML = 
+                    '💰 Payment System: READY (Bitcomat Integration Active)'
+            }
+        }
+
+        console.log('🧊 ICE METROPOLIS - Web3 ACTIVE')
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #00ffff;
+            line-height: 1.6;
+        }
+        .ice-header {
+            background: linear-gradient(135deg, #001122 0%, #003366 100%);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-bottom: 3px solid #00ffff;
+        }
+        .web3-section {
+            background: #001a33;
+            padding: 2rem;
+            margin: 2rem;
+            border: 2px solid #0088ff;
+            border-radius: 10px;
+        }
+        .btn {
+            background: #0088ff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #00ffff;
+            color: #001122;
+        }
+    </style>
+</head>
+<body>
+    <header class="ice-header">
+        <h1>🧊 ICE METROPOLIS - Web3 ENABLED</h1>
+        <p>System ID: C0C95A53 | Crypto Payments Active</p>
+    </header>
+
+    <div class="web3-section">
+        <h2>🔗 Web3 Wallet Integration</h2>
+        <button class="btn" onclick="connectWallet()">Connect Wallet</button>
+        <div id="walletStatus">🔌 Wallet: Disconnected</div>
+        
+        <h2>💰 Crypto Payments</h2>
+        <button class="btn" onclick="makePayment()">Activate Bitcomat</button>
+        <div id="paymentStatus">💳 Payment System: Ready</div>
+    </div>
+
+    <!-- Original ICE Content -->
+    <div style="padding: 2rem;">
+        <h2>🧊 Original ICE METROPOLIS System</h2>
+        <p>System: ONLINE | BITCOMAT ACTIVE</p>
+        <p>Author: Paweł Szczurowski / ICE_RAVEN</p>
+        <p>Heir: Nikoś | Status: Eternal Legacy</p>
+    </div>
+</body>
+</html>

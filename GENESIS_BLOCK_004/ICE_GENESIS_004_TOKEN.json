@@ -1,0 +1,32 @@
+{
+  "name": "\ud83e\uddca ICE Genesis Block 004 - Quantum",
+  "symbol": "ICE-G004",
+  "description": "Fourth generation quantum-enhanced digital artifact with AI integration and cross-chain capabilities",
+  "edition": "1/1",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "004"
+    },
+    {
+      "trait_type": "Era",
+      "value": "Quantum Expansion"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "AI Integration",
+      "value": "Enhanced"
+    },
+    {
+      "trait_type": "Cryptography",
+      "value": "Quantum-Resistant"
+    },
+    {
+      "trait_type": "Interoperability",
+      "value": "Cross-Chain"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "protocol_version": "Q4.0",
+  "hash_algorithm": "SHA3-512",
+  "encryption_standard": "Kyber-1024",
+  "key_exchange": "FrodoKEM-1344",
+  "signature_scheme": "Dilithium-5",
+  "timestamp": "2025-10-12T23:16:17.019811",
+  "security_level": "quantum_resistant_128_bit"
+}

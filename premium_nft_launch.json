@@ -1,0 +1,46 @@
+{
+  "series": "ICE Genesis Ultra Collection",
+  "launch_time": "2025-10-13T01:09:13.152208",
+  "total_value": "1,125 ETH (~$3.3M)",
+  "tiers": {
+    "ULTRA_TIER": {
+      "price": "25 ETH",
+      "supply": "10 editions",
+      "utility": [
+        "15% revenue share",
+        "Governance voting",
+        "VIP access"
+      ],
+      "benefits": [
+        "Lifetime platform access",
+        "Board advisory rights"
+      ]
+    },
+    "ELITE_TIER": {
+      "price": "10 ETH",
+      "supply": "25 editions",
+      "utility": [
+        "10% revenue share",
+        "Early access",
+        "Premium features"
+      ],
+      "benefits": [
+        "5-year platform access",
+        "Priority support"
+      ]
+    },
+    "PREMIUM_TIER": {
+      "price": "5 ETH",
+      "supply": "50 editions",
+      "utility": [
+        "5% revenue share",
+        "Standard access"
+      ],
+      "benefits": [
+        "2-year platform access",
+        "Standard support"
+      ]
+    }
+  },
+  "status": "ACTIVE"
+}

@@ -1,0 +1,20 @@
+{
+  "genesis_block": 3,
+  "timestamp": "2025-10-12T23:08:43.405689",
+  "files": {
+    "full_pack": {
+      "cid": "Qm0326591fdba907c4f6cf777ceb35a04961a599eb6496",
+      "filename": "ICE_GENESIS_003_FULL_PACK.zip",
+      "description": "Complete Genesis Block 003 Package"
+    },
+    "manifest": {
+      "cid": "Qmb65e76bdcb4a2966b37650b2f2f4e8fe21e25cc5a612",
+      "filename": "ICE_GENESIS_003_MANIFEST.pdf"
+    },
+    "token": {
+      "cid": "Qm7ce34f4799de604e50df1d1799adfa0dc4e1407998b1",
+      "filename": "ICE_GENESIS_003_TOKEN.json"
+    }
+  },
+  "deploy_version": "1.0"
+}

@@ -1,0 +1,15 @@
+{
+  "precision_farming": [
+    "--precision-forming"
+  ],
+  "supply_chain": [
+    "sensors",
+    "drones",
+    "irrigation"
+  ],
+  "carbon_farming": [
+    "--supply-chain"
+  ],
+  "deployment_time": "2025-10-13T00:59:44.525658",
+  "status": "ACTIVE"
+}

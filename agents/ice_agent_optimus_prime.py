@@ -1,14 +1,11 @@
+# ICE_AGENT_OPTIMUS_PRIME - TERMUX VERSION
 class ICEAgentOptimusPrime:
     def __init__(self):
-        self.name = "Optimus Prime"
-        self.version = "1.0"
-        self.status = "ACTIVE"
+        self.rank = "COMMANDER"
+        self.platform = "TERMUX"
     
     def activate(self):
-        return "🔱 OPTIMUS PRIME ONLINE - ALL SYSTEMS NOMINAL"
+        return "馃敱 OPTIMUS PRIME: ONLINE ON TERMUX"
     
-    def analyze_threat(self, threat_level="MEDIUM"):
-        return f"🔍 THREAT ANALYSIS: {threat_level} - COUNTERMEASURES DEPLOYED"
-    
-    def deploy_strategy(self, strategy="AUTONOMOUS_REVENUE"):
-        return f"🎯 STRATEGY DEPLOYED: {strategy} - REVENUE STREAMS ACTIVATED"
+    def deploy_army(self):
+        return "馃殌 DEPLOYING ICE AGENT ARMY..."

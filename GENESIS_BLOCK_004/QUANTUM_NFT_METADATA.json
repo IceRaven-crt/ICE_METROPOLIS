@@ -1,0 +1,44 @@
+{
+  "name": "\ud83e\uddca ICE Genesis Block 004 - Quantum NFT",
+  "description": "Quantum-enhanced digital artifact with AI governance and cross-chain interoperability",
+  "image": "ipfs://[QUANTUM_IMAGE_CID]",
+  "animation_url": "ipfs://[QUANTUM_PACKAGE_CID]",
+  "external_url": "https://ice-metropolis.com/genesis-004",
+  "attributes": [
+    {
+      "trait_type": "Generation",
+      "value": "004"
+    },
+    {
+      "trait_type": "Era",
+      "value": "Quantum Expansion"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "AI Integration",
+      "value": "Neural Network"
+    },
+    {
+      "trait_type": "Security",
+      "value": "Quantum-Resistant"
+    },
+    {
+      "trait_type": "Interoperability",
+      "value": "Cross-Chain"
+    }
+  ],
+  "quantum_properties": {
+    "encryption": "Kyber-1024",
+    "signature": "Dilithium-5",
+    "hash_algorithm": "SHA3-512",
+    "quantum_hash": "584bdcd3b09ed1d9d5b645f62f4847aa719e090a3113dde2d95816e9d6292c671fe0baccd8af1dfa216529505770d0cbfd05e5b9a9e3690846441fc5982d2350",
+    "neural_network": "Enhanced Governance"
+  },
+  "collection": {
+    "name": "ICE Genesis Blocks",
+    "family": "Quantum Series"
+  }
+}

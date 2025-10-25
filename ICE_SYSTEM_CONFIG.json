@@ -1,0 +1,17 @@
+{
+  "system_id": "C0C95A53",
+  "live_url": "https://68ec129ea66cd52eff4e577a--ice-metropolis-1760301724.netlify.app",
+  "site_id": "0da54934-7326-4082-89ce-01209eebbb0b",
+  "status": "ACTIVE",
+  "author": "Paweł Szczurowski / ICE_RAVEN",
+  "heir": "Nikoś",
+  "deploy_time": "2025-10-12T22:45:37+02:00",
+  "features": [
+    "web3_integration",
+    "crypto_payments",
+    "nft_dashboard",
+    "bitcomat_ready",
+    "qr_code_access",
+    "revenue_analytics"
+  ]
+}

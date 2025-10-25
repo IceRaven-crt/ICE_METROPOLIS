@@ -1,0 +1,21 @@
+{
+  "modules": {
+    "iot_sensors": [
+      "--sensors"
+    ],
+    "blockchain_features": [
+      "equipment",
+      "environmental",
+      "safety"
+    ],
+    "ai_components": [
+      "--blockchain"
+    ],
+    "revenue_streams": [
+      "supply-chain",
+      "tokenization"
+    ]
+  },
+  "deployment_time": "2025-10-13T00:59:23.702058",
+  "status": "ACTIVE"
+}

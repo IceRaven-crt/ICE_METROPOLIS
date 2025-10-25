@@ -1,0 +1,25 @@
+{
+  "deployment_id": "GENESIS_003_FINAL",
+  "timestamp": "2025-10-12T23:13:13.258770",
+  "status": "FULLY_DEPLOYED",
+  "ipfs_cids": {
+    "full_package": "Qm0326591faba907c4f6cf777ceb35a04961a599eb6496",
+    "manifest": "Qmb65e7dbdcb4a2966b37650b2f2f4e8fe21e25cc5a612",
+    "token_metadata": "Qm7ce34f4799de604e50df1d1799adfa0dc4e1407998b1"
+  },
+  "blockchain": {
+    "network": "Polygon",
+    "status": "MINTED",
+    "block_id": "GENESIS_003"
+  },
+  "files_created": [
+    "ICE_GENESIS_003_FULL_PACK.zip",
+    "GENESIS_003_METADATA.json",
+    "GENESIS_003_HASHES.csv",
+    "ICE_CHAIN_BLOCK_003.csv",
+    "NFT_METADATA_GENESIS_003.json",
+    "GENESIS_003_PUBLIC_DROP.html",
+    "GENESIS_003_FULL_DROP_FINAL.zip"
+  ],
+  "next_phase": "GENESIS_004_QUANTUM"
+}

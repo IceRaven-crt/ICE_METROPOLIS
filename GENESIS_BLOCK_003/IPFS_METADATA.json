@@ -1,0 +1,19 @@
+{
+  "name": "\ud83e\uddca ICE Genesis Block 003",
+  "description": "Third foundational digital artifact in the ICE Metropolis ecosystem",
+  "version": "3.0",
+  "creator": "ICE Architect",
+  "timestamp": "2025-10-12T23:04:00Z",
+  "attributes": {
+    "rarity": "mythic",
+    "generation": "genesis",
+    "block_number": 3,
+    "digital_signature": "ICE_GENESIS_0032170f43e2e2921f6"
+  },
+  "files": [
+    "ICE_GENESIS_003_MANIFEST.pdf",
+    "ICE_GENESIS_003_TOKEN.json",
+    "GENESIS_003_QR.pdf",
+    "ICE_GENESIS_003_FULL_PACK.zip"
+  ]
+}

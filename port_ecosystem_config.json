@@ -1,0 +1,15 @@
+{
+  "port_modules": [
+    "--modules"
+  ],
+  "automation_systems": [
+    "vessel-tracking",
+    "terminal-management",
+    "customs"
+  ],
+  "revenue_models": [
+    "--automation"
+  ],
+  "deployment_time": "2025-10-13T00:59:34.725379",
+  "status": "ACTIVE"
+}
