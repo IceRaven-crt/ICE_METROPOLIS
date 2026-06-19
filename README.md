@@ -1,6 +1,6 @@
 # 🧊 ICE_METROPOLIS
 
-Official ICE System deployment - Paweł Szczurowski / ICE_RAVEN
+Official ICE System deployment - Paweł Sz / ICE_RAVEN
 
 ## 🚀 System Status: **ACTIVE**
 
