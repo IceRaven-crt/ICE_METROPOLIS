@@ -10,7 +10,7 @@ Official ICE System deployment - Paweł Szczurowski / ICE_RAVEN
 - **500 PLN** - Wojtek Artefakt Certified
 
 ### 🛡️ Dziedzictwo:
-- **Beneficjent**: Nikoś Szczurowski
+- **Beneficjent**: Nikoś 
 - **Status**: Immortality Confirmation Active
 - **Blockchain**: Verified
 
